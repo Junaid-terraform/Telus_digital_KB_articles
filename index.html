@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telus Digital Knowledge Base</title>
+    <style>
+        /* Reset default margins and paddings */
+        * {
+            margin: 10;
+            padding: 10;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header section with logo */
+        header {
+            background-color: #004080;
+            padding: 20px;
+            text-align: right;
+        }
+
+        header img {
+            max-height: 100px;
+            object-fit: contain;
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            background-color: #004080;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 8px 15px;
+            background-color: #005cbf;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #003f6b;
+        }
+
+        /* Section Styling */
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 28px;
+            color: #004080;
+            margin-bottom: 15px;
+        }
+
+        section ul, section ol {
+            margin-left: 50px;
+            margin-bottom: 50px;
+        }
+
+        section li {
+            margin-bottom: 10px;
+        }
+
+        /* Add some spacing for content */
+        section p {
+            margin-bottom: 20px;
+        }
+
+        /* Footer section */
+        footer {
+            text-align: center;
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            header img {
+                max-height: 60px;
+            }
+
+            section {
+                padding: 20px;
+            }
+
+            section h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section with Logo -->
+    <header>
+        <img src="telusDigital_logo.jpg" alt="Telus Digital Logo">
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#system-requirements">System Requirements</a></li>
+            <li><a href="#troubleshooting">Troubleshooting</a></li>
+            <li><a href="#contact-support">Contact Support</a></li>
+        </ul>
+    </nav>
+
+    <!-- System Requirements Section -->
+    <section id="system-requirements">
+        <h2>System Requirements</h2>
+        <ul>
+            <li><strong>Processor:</strong> i7 (Intel)</li>
+            <li><strong>RAM:</strong> 16 GB</li>
+            <li><strong>Supported Browser:</strong> Google Chrome</li>
+            <li><strong>Recommended OS:</strong> Windows & Mac</li>
+        </ul>
+     </section>
+
+     <!-- Prerequisites for Better Tool Performance -->
+    <section id="Prerequisites for Better Tool Performance">
+
+        <h2><strong>Prerequisites for Better Tool Performance:</strong></h2>
+        <ul>
+            <li>Make sure no VPN or Firewall is enabled.</li>
+            <li>Check the internet speed.</li>
+            <li>Check if the Chrome Browser is up to date.</li>
+            <li>Check if the date and time of the PC are correct.</li>
+        </ul>
+    </section>
+
+    <!-- Troubleshooting Section -->
+    <section id="troubleshooting">
+        <h2>Basic Troubleshooting Steps </h2>
+        <p>If you encounter any issues, follow the steps below to troubleshoot:</p>
+        <ol>
+            <li>Open the assigned task in <strong>app.playment.io</strong>.</li>
+            <li>Right-click the URL and select "Inspect" (Shortcut: <strong>Ctrl+Shift+I</strong> on Windows, <strong>Cmd+Option+I</strong> on Mac).</li>
+            <li>Go to the <strong>"Applications"</strong> tab:</li>
+
+            <img src="pic1.png" alt="How to inspect Screenshot" style="width: 100%; border-radius: 5px;">
+
+            <li>Navigate to the <strong> "Storage" </strong> section inside the Applications tab and click "Clear site data".</li>
+
+            <img src="pic2.png" alt="Application tab screenshot" style="width: 100%; border-radius: 5px;">
+
+
+            <li>Right-click the reload button and select <strong> "Empty cache and hard reload" </strong> </li>
+
+            <img src="pic3.png" alt="Hard Reload Screenshot" style="width: 100%; border-radius: 5px;">
+
+            <li>Close the current tab and open the same task in a new tab.</li>
+        </ol>
+    </section>
+
+    <!-- Contact Support Section -->
+    <section id="contact-support">
+        <h2>Contact Support</h2>
+        <p>If you continue to face issues, please contact our support team:</p>
+        <p>Provide the task Job ID / Microtask ID and any relevant screenshots / Loom Recordings to help us resolve your issue quickly. We are here to assist.</p>
+        <p>For immediate assistance, you can reach out to us through slack channels </p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Telus Digital | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+</body>
+</html>
